@@ -1,0 +1,26 @@
+.container {
+  width: 350px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 15px;
+  background: #eef;
+  border-radius: 5px;
+}
