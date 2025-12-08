@@ -57,3 +57,9 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+✅ 1. O base-href está errado
+
+Se você está publicando no GitHub Pages, o base-href precisa ter barra no final:
+
+ng build --output-path docs --base-href /imc-app/
